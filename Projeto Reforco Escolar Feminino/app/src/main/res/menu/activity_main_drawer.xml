@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_menu_perfil"
+            android:title="Meu Perfil" />
+        <item
+            android:id="@+id/nav_aulas_marcadas"
+            android:icon="@drawable/ic_menu_aulas_marcadas"
+            android:title="Aulas Marcadas" />
+        <item
+            android:id="@+id/nav_historico"
+            android:icon="@drawable/ic_menu_historico"
+            android:title="Histórico" />
+        <item
+            android:id="@+id/nav_configuracoes"
+            android:icon="@drawable/ic_menu_configuracoes"
+            android:title="Configurações" />
+    </group>
+
+    <item android:title="Reforço Feminino">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_feedback"
+                android:title="Fale Conosco" />
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_menu_sobre_nos"
+                android:title="Sobre Nós" />
+        </menu>
+    </item>
+
+</menu>
