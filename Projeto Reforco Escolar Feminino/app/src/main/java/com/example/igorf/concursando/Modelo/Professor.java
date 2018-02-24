@@ -9,6 +9,7 @@ public class Professor {
     private String descricao;
     private String[] disciplinas;
     private int classificacao;
+	private bool disponibilidadeVisita;
 
     public Professor(){}
 
